@@ -1,5 +1,5 @@
 {
-  "name": "jsdom",
+  "name": "jsdom-deno",
   "version": "19.0.0",
   "description": "A JavaScript implementation of many web standards",
   "keywords": [
@@ -50,14 +50,6 @@
   },
   "_dependenciesComments": {
     "parse5": "Pinned to exact version number because we monkeypatch its internals (see htmltodom.js)"
-  },
-  "peerDependencies": {
-    "canvas": "^2.5.0"
-  },
-  "peerDependenciesMeta": {
-    "canvas": {
-      "optional": true
-    }
   },
   "devDependencies": {
     "@domenic/eslint-config": "^1.4.0",
