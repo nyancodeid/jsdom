@@ -14,6 +14,12 @@ const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 ```
 
+and for Deno
+
+```ts
+import { JSDOM } from "https://jspm.dev/npm:jsdom-deno@19.0.1"
+````
+
 To use jsdom, you will primarily use the `JSDOM` constructor, which is a named export of the jsdom main module. Pass the constructor a string. You will get back a `JSDOM` object, which has a number of useful properties, notably `window`:
 
 ```js
